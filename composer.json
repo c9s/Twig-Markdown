@@ -1,5 +1,5 @@
 {
-    "name": "corneltek/twig-markdown",
+    "name": "corneltek\/twig-markdown",
     "authors": [
         {
             "name": "getakura",
@@ -10,16 +10,28 @@
         {
             "type": "package",
             "package": {
-                "name": "michelf/php-markdown",
+                "name": "michelf\/php-markdown",
                 "version": "1.0",
-                "dist": { "url": "https://github.com/michelf/php-markdown/zipball/extra", "type": "zip" },
-                "autoload": { "files": [ "markdown.php" ] }
+                "dist": {
+                    "url": "https:\/\/github.com\/michelf\/php-markdown\/zipball\/extra",
+                    "type": "zip"
+                },
+                "autoload": {
+                    "files": [
+                        "markdown.php"
+                    ]
+                }
             }
         }
     ],
     "require": {
-        "twig/twig": "1.*",
-        "michelf/php-markdown": "1.*"
+        "twig\/twig": "1.*",
+        "michelf\/php-markdown": "1.*"
     },
-    "autoload": { "psr-0" : { "Twig_" : "lib/" } }
+    "autoload": {
+        "psr-0": {
+            "Twig_": "lib\/"
+        }
+    },
+    "version": "0.1.1"
 }
