@@ -26,7 +26,7 @@
     ],
     "require": {
         "twig\/twig": "~1.12",
-        "michelf\/php-markdown": "1.*"
+        "michelf\/php-markdown": "1.0"
     },
     "autoload": {
         "psr-0": {
