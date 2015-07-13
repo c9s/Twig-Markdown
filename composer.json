@@ -1,10 +1,7 @@
 {
     "name": "corneltek/twig-markdown",
     "authors": [
-        {
-            "name": "getakura",
-            "email": "getakura@gmail.com"
-        }
+        { "name": "getakura", "email": "getakura@gmail.com" }
     ],
     "require": {
         "michelf\/php-markdown": "*",
