@@ -8,7 +8,7 @@ class Twig_Extension_Markdown extends Twig_Extension
 {
     public function getTokenParsers()
     {
-        include_once dirname(__FILE__).'/../TokenParser/Markdown.php';
+        require_once dirname(__FILE__).'/../TokenParser/Markdown.php';
         return array(
             new Twig_TokenParser_Markdown(),
         );
