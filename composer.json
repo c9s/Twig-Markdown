@@ -27,6 +27,9 @@
     "require": {
         "michelf\/php-markdown": "1.0"
     },
+    "require-dev": {
+        "twig/twig": "*"
+    },
     "autoload": {
         "psr-0": {
             "Twig_": "lib\/"
