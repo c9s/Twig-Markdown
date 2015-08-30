@@ -1,7 +1,10 @@
 {
     "name": "corneltek/twig-markdown",
     "authors": [
-        { "name": "getakura", "email": "getakura@gmail.com" }
+        {
+            "name": "getakura",
+            "email": "getakura@gmail.com"
+        }
     ],
     "require": {
         "michelf/php-markdown": "*",
@@ -12,8 +15,8 @@
     },
     "autoload": {
         "psr-0": {
-            "Twig_": "lib\/"
+            "Twig_": "lib/"
         }
     },
-    "version": "1.0.0"
+    "version": "1.0.1"
 }
