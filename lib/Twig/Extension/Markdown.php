@@ -17,10 +17,8 @@ class Twig_Extension_Markdown extends Twig_Extension
     public function getFilters()
     {
         $filters = array(
-            // formatting filters
-            'markdown'=> new Twig_Filter_Function('twig_markdown'),
+            new Twig_SimpleFilter('markdown','twig_markdown'),
         );
-
         return $filters;
     }
 
