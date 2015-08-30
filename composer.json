@@ -5,7 +5,7 @@
     ],
     "require": {
         "michelf/php-markdown": "*",
-        "twig/twig": ">=1.21 ^1"
+        "twig/twig": "^1.21"
     },
     "require-dev": {
         "satooshi/php-coveralls": "dev-master"
