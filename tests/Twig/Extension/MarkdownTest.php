@@ -6,9 +6,7 @@ class MarkdownTest extends TestCase
 {
     public function testAddExtension()
     {
-        $loader = new Twig_Loader_Filesystem(array(
-            'tests/fixtures'
-        ));
+        $loader = new Twig_Loader_Filesystem([ 'tests/fixtures' ]);
         $env = new Twig_Environment($loader, array());
         $env->addExtension(new Twig_Extension_Markdown);
 

@@ -17,7 +17,7 @@ class Twig_Extension_Markdown extends Twig_Extension
     {
         // twig 1.x deprecated Twig_Filter_Function
         if (class_exists('Twig_SimpleFilter', true)) {
-            return array(new Twig_SimpleFilter('markdown','twig_markdown'));
+            return array(new Twig_SimpleFilter('markdown', 'twig_markdown'));
         }
         return array('markdown' => new Twig_Filter_Function('twig_markdown'));
     }
@@ -26,11 +26,9 @@ class Twig_Extension_Markdown extends Twig_Extension
     {
         return 'markdown';
     }
-
 }
 
 function twig_markdown($data)
 {
     return Markdown($data);
 }
-
