@@ -15,10 +15,11 @@ class Twig_Extension_Markdown extends Twig_Extension
 
     public function getFilters()
     {
+        // twig 1.x deprecated Twig_Filter_Function
         if (class_exists('Twig_SimpleFilter', true)) {
             return array(new Twig_SimpleFilter('markdown','twig_markdown'));
         }
-        return array( 'markdown'=> new Twig_Filter_Function('twig_markdown') );
+        return array('markdown' => new Twig_Filter_Function('twig_markdown'));
     }
 
     public function getName()
