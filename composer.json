@@ -7,7 +7,6 @@
         }
     ],
     "require": {
-        "php": ">=7",
         "michelf/php-markdown": "^1.7",
         "twig/twig": "^2.3"
     },
